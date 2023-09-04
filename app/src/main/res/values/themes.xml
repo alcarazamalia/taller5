@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApp2023" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MyApp2023" parent="Base.Theme.MyApp2023" />
+    <style name="MenuButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:paddingLeft">60dp</item>
+        <item name="android:paddingRight">60dp</item>
+
+    </style>
+
+    <style name="NextButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:paddingLeft">60dp</item>
+        <item name="android:paddingRight">60dp</item>
+
+    </style>
+</resources>

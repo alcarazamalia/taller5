@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Cita Médic #1"/>
+        <TextView
+            android:id="@+id/tv_medico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Médico 1"/>
+        <TextView
+            android:id="@+id/tv_fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atencion el dia 03/08/0/2023"/>
+        <TextView
+            android:id="@+id/tv_hora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A las 9:30 AM"/>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
